@@ -32,7 +32,7 @@ DrawMap.prototype.drawGlue = function (lng, lat, focus_zoom_level, context_zoom_
     var img = new Image();      //Image obj作成
     //ブラウザのcache対策 
     var glueImageArray = {
-    		roadGlueCar: "http://"+g_GlobalStaticNumber.glueHostName+":8080/EmmaGlueMuraseOriginal/MainServlet?" +
+    		roadGlueCar: "http://"+g_GlobalStaticNumber.glueHostName+":8080/"+g_GlobalStaticNumber.projectName+"/MainServlet?" +
     		"type="+"DrawElasticRoad"+
     		"&centerLngLat="+lng+","+lat+
     		"&focus_zoom_level="+focus_zoom_level+
@@ -40,7 +40,7 @@ DrawMap.prototype.drawGlue = function (lng, lat, focus_zoom_level, context_zoom_
     		"&glue_inner_radius="+g_GlobalStaticNumber.glueInnerRadius+
     		"&glue_outer_radius="+g_GlobalStaticNumber.glueOuterRadius+
     		"&roadType=" +"car",
-    		roadGlueAll : "http://"+g_GlobalStaticNumber.glueHostName+":8080/EmmaGlueMuraseOriginal/MainServlet?" +
+    		roadGlueAll : "http://"+g_GlobalStaticNumber.glueHostName+":8080/"+g_GlobalStaticNumber.projectName+"/MainServlet?" +
     		"type="+"DrawElasticRoad"+
     		"&centerLngLat="+lng+","+lat+
     		"&focus_zoom_level="+focus_zoom_level+
@@ -48,7 +48,7 @@ DrawMap.prototype.drawGlue = function (lng, lat, focus_zoom_level, context_zoom_
     		"&glue_inner_radius="+g_GlobalStaticNumber.glueInnerRadius+
     		"&glue_outer_radius="+g_GlobalStaticNumber.glueOuterRadius+
     		"&roadType=" +"all",
-    		strokeGlue : "http://"+g_GlobalStaticNumber.glueHostName+":8080/EmmaGlueMuraseOriginal/MainServlet?" +
+    		strokeGlue : "http://"+g_GlobalStaticNumber.glueHostName+":8080/"+g_GlobalStaticNumber.projectName+"/MainServlet?" +
     		"type="+"DrawElasticStroke_v2"+
     		"&centerLngLat="+lng+","+lat+
     		"&focus_zoom_level="+focus_zoom_level+
@@ -56,7 +56,7 @@ DrawMap.prototype.drawGlue = function (lng, lat, focus_zoom_level, context_zoom_
     		"&glue_inner_radius="+g_GlobalStaticNumber.glueInnerRadius+
     		"&glue_outer_radius="+g_GlobalStaticNumber.glueOuterRadius+
     		"&roadType=" +"car",
-    		strokeGlueConn : "http://"+g_GlobalStaticNumber.glueHostName+":8080/EmmaGlueMuraseOriginal/MainServlet?" +
+    		strokeGlueConn : "http://"+g_GlobalStaticNumber.glueHostName+":8080/"+g_GlobalStaticNumber.projectName+"/MainServlet?" +
     		"type="+"DrawElasticStrokeConnectivity"+
     		"&centerLngLat="+lng+","+lat+
     		"&focus_zoom_level="+focus_zoom_level+
@@ -64,7 +64,7 @@ DrawMap.prototype.drawGlue = function (lng, lat, focus_zoom_level, context_zoom_
     		"&glue_inner_radius="+g_GlobalStaticNumber.glueInnerRadius+
     		"&glue_outer_radius="+g_GlobalStaticNumber.glueOuterRadius+
     		"&roadType=" +"car",
-    		mitinari : "http://"+g_GlobalStaticNumber.glueHostName+":8080/EmmaGlueMuraseOriginal/MainServlet?" +
+    		mitinari : "http://"+g_GlobalStaticNumber.glueHostName+":8080/"+g_GlobalStaticNumber.projectName+"/MainServlet?" +
     		"type="+"DrawMitinariSenbetuAlgorithm"+
     		"&centerLngLat="+lng+","+lat+
     		"&focus_zoom_level="+focus_zoom_level+
@@ -72,7 +72,7 @@ DrawMap.prototype.drawGlue = function (lng, lat, focus_zoom_level, context_zoom_
     		"&glue_inner_radius="+g_GlobalStaticNumber.glueInnerRadius+
     		"&glue_outer_radius="+g_GlobalStaticNumber.glueOuterRadius+
     		"&roadType=" +"car",
-    		drawGlue_v2 : "http://"+g_GlobalStaticNumber.glueHostName+":8080/EmmaGlueMuraseOriginal/MainServlet?" +
+    		drawGlue_v2 : "http://"+g_GlobalStaticNumber.glueHostName+":8080/"+g_GlobalStaticNumber.projectName+"/MainServlet?" +
     		"type="+"DrawGlue_v2"+
     		"&centerLngLat="+lng+","+lat+
     		"&focus_zoom_level="+focus_zoom_level+
