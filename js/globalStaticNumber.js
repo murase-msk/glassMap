@@ -16,7 +16,7 @@ function GlobalStaticNumber(){
 	// ホストのIPアドレス.
 	this.hostName =  location.host;
 	
-	this.glueHostName = "52.193.53.55";
+	this.glueHostName = "52.68.12.17";
 	
 	//////////////////////////////
 	///////////変数///////////////////
