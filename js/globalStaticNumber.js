@@ -12,7 +12,7 @@ function GlobalStaticNumber(){
 	/////////定数////////////
 	////////////////////////
 	// プロジェクト名.
-	this.projectName = "EmmaMurase";
+	this.projectName = "glassMapServer";
 	// ホストのIPアドレス.
 	this.hostName =  location.host;
 	
